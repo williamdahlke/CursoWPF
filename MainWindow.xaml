@@ -37,10 +37,20 @@
         <!--<TextBox Margin="10" Foreground="Blue" FontWeight="Bold" AcceptsReturn="True" MaxHeight="60">Aceita parágrafo</TextBox>-->
         <!--<TextBox Margin="10" Width="100" AcceptsReturn="True" TextWrapping="Wrap" HorizontalAlignment="Left">Texto alinhado a esquerda</TextBox>-->
 
-        <CheckBox Margin="10">Primeiro Checkbox</CheckBox>
-        <CheckBox Margin="10" IsChecked="True">Segundo Checkbox</CheckBox>
-        <CheckBox Margin="10" IsThreeState="True">Terceiro Checkbox</CheckBox>
-        <CheckBox Margin="10" Content="Quarto Checkbox" FontSize="16" FontWeight="Black" Foreground="Brown"/>
+        <!--<CheckBox Margin="10">Primeiro Checkbox</CheckBox>-->
+        <!--<CheckBox Margin="10" IsChecked="True">Segundo Checkbox</CheckBox>-->
+        <!--<CheckBox Margin="10" IsThreeState="True">Terceiro Checkbox</CheckBox>-->
+        <!--<CheckBox Margin="10" Content="Quarto Checkbox" FontSize="16" FontWeight="Black" Foreground="Brown"/>-->
+
+        <TextBlock Margin="10" FontSize="16" FontWeight="Bold">Opções RadioButton</TextBlock>
+        <RadioButton Margin="10,2" GroupName="PriSel" IsChecked="True">Primeira opção</RadioButton>
+        <RadioButton Margin="10,2" GroupName="PriSel">Segunda opção</RadioButton>
+        <RadioButton Margin="10,2" GroupName="PriSel">Terceira opção</RadioButton>
+
+        <TextBlock Margin="10" FontSize="16" FontWeight="Bold">Selecione uma opção</TextBlock>
+        <RadioButton Margin="5" GroupName="SecSel" Content="Sim" IsChecked="True"/>
+        <RadioButton Margin="5" GroupName="SecSel" Content="Não"/>
+        <RadioButton Margin="5" GroupName="SecSel" Content="Talvez"/>
     </StackPanel>
 </Window>
     
