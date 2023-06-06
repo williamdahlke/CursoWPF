@@ -58,7 +58,7 @@
         <Button Margin="10" ToolTip="Button gerado pela Biblioteca do MaterialDesign" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">Segundo Button</Button>
         <Button Margin="10" Width="150" Height="30">Terceiro Button</Button>-->
 
-        <Button Margin="10" Style="{StaticResource MaterialDesignRaisedLightButton}">MaterialDesignRaisedLightButton</Button>
+        <!--<Button Margin="10" Style="{StaticResource MaterialDesignRaisedLightButton}">MaterialDesignRaisedLightButton</Button>
         <Button Margin="10" Style="{StaticResource MaterialDesignRaisedButton}">MaterialDesignRaisedButton</Button>
         <Button Margin="10" Style="{StaticResource MaterialDesignRaisedDarkButton}" Content="MaterialDesignRaisedDarkButton"></Button>
         <Button Margin="10" Style="{StaticResource MaterialDesignRaisedAccentButton}" Content="MaterialDesignRaisedAccentButton"/>
@@ -66,7 +66,15 @@
         <Button Margin="10" Style="{StaticResource MaterialDesignFloatingActionLightButton}" Content="MaterialDesignFlatButton"></Button>
         <Button Margin="10" Style="{StaticResource MaterialDesignFloatingActionLightButton}">
             <materialDesign:PackIcon Kind="Account" Height="30" Width="30"></materialDesign:PackIcon>
-        </Button>
+        </Button>-->
+
+        <ComboBox Width="100" HorizontalAlignment="Left" Margin="10" IsEditable="True">
+            <ComboBoxItem IsSelected="True">Primeiro</ComboBoxItem>
+            <ComboBoxItem>Segundo</ComboBoxItem>
+            <ComboBoxItem>Terceiro</ComboBoxItem>
+        </ComboBox>
+
+        <ToggleButton Margin ="10" HorizontalAlignment="Left" IsChecked="True"></ToggleButton>
 
 
 
