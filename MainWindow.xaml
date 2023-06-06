@@ -14,7 +14,7 @@
         TextOptions.TextRenderingMode="Auto"
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"        
-        Title="Aplicativo" Height="400" Width="300" ResizeMode="NoResize">
+        Title="Aplicativo" Height="600" Width="300" ResizeMode="NoResize">
     <!--<Grid>-->
         <!--<TextBlock FontSize="20" Margin="10" Height ="25" Width="100">Texto</TextBlock>
         <Rectangle Width="150" Height="30" Fill="#FF4BE11C" VerticalAlignment="Bottom"></Rectangle>-->        
@@ -42,15 +42,34 @@
         <!--<CheckBox Margin="10" IsThreeState="True">Terceiro Checkbox</CheckBox>-->
         <!--<CheckBox Margin="10" Content="Quarto Checkbox" FontSize="16" FontWeight="Black" Foreground="Brown"/>-->
 
-        <TextBlock Margin="10" FontSize="16" FontWeight="Bold">Opções RadioButton</TextBlock>
-        <RadioButton Margin="10,2" GroupName="PriSel" IsChecked="True">Primeira opção</RadioButton>
-        <RadioButton Margin="10,2" GroupName="PriSel">Segunda opção</RadioButton>
-        <RadioButton Margin="10,2" GroupName="PriSel">Terceira opção</RadioButton>
+        <!--<TextBlock Margin="10" FontSize="16" FontWeight="Bold">Opções RadioButton</TextBlock>-->
+        <!--<RadioButton Margin="10,2" GroupName="PriSel" IsChecked="True">Primeira opção</RadioButton>-->
+        <!--<RadioButton Margin="10,2" GroupName="PriSel">Segunda opção</RadioButton>-->
+        <!--<RadioButton Margin="10,2" GroupName="PriSel">Terceira opção</RadioButton>-->
 
-        <TextBlock Margin="10" FontSize="16" FontWeight="Bold">Selecione uma opção</TextBlock>
-        <RadioButton Margin="5" GroupName="SecSel" Content="Sim" IsChecked="True"/>
-        <RadioButton Margin="5" GroupName="SecSel" Content="Não"/>
-        <RadioButton Margin="5" GroupName="SecSel" Content="Talvez"/>
+        <!--<TextBlock Margin="10" FontSize="16" FontWeight="Bold">Selecione uma opção</TextBlock>-->
+        <!--<RadioButton Margin="5" GroupName="SecSel" Content="Sim" IsChecked="True"/>-->
+        <!--<RadioButton Margin="5" GroupName="SecSel" Content="Não"/>-->
+        <!--<RadioButton Margin="5" GroupName="SecSel" Content="Talvez"/>-->
+                
+        <!--<Button Margin="10" Content="Primeiro Button"/>
+        <Button Margin="10" ToolTip="Button gerado pela Biblioteca do MaterialDesign" HorizontalAlignment="Center">Segundo Button</Button>
+        <Button Margin="10" ToolTip="Button gerado pela Biblioteca do MaterialDesign" HorizontalAlignment="Stretch">Segundo Button</Button>
+        <Button Margin="10" ToolTip="Button gerado pela Biblioteca do MaterialDesign" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">Segundo Button</Button>
+        <Button Margin="10" Width="150" Height="30">Terceiro Button</Button>-->
+
+        <Button Margin="10" Style="{StaticResource MaterialDesignRaisedLightButton}">MaterialDesignRaisedLightButton</Button>
+        <Button Margin="10" Style="{StaticResource MaterialDesignRaisedButton}">MaterialDesignRaisedButton</Button>
+        <Button Margin="10" Style="{StaticResource MaterialDesignRaisedDarkButton}" Content="MaterialDesignRaisedDarkButton"></Button>
+        <Button Margin="10" Style="{StaticResource MaterialDesignRaisedAccentButton}" Content="MaterialDesignRaisedAccentButton"/>
+        <Button Margin="10" Style="{StaticResource MaterialDesignFlatButton}" Content="MaterialDesignFlatButton"/>
+        <Button Margin="10" Style="{StaticResource MaterialDesignFloatingActionLightButton}" Content="MaterialDesignFlatButton"></Button>
+        <Button Margin="10" Style="{StaticResource MaterialDesignFloatingActionLightButton}">
+            <materialDesign:PackIcon Kind="Account" Height="30" Width="30"></materialDesign:PackIcon>
+        </Button>
+
+
+
     </StackPanel>
 </Window>
     
